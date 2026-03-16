@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="content">
+      <div id="hero-page">
+        <h1 id="title">Metric/Imperial Unit Conversion</h1>
+        <input type="number" id="input" placeholder="0" />
+        <button id="convert-btn">Convert</button>
+      </div>
+      <div id="results-content">
+        <div id="results-one" class="results-card">
+          <h2 id="results-one-title">Length (Meter/Feet)</h2>
+          <p id="results-one-value">
+            0 meters = 0.000 feet | 0 feet = 0.000 meters
+          </p>
+        </div>
+        <div id="results-two">
+          <h2 id="results-two-title">Volume (Liters/Gallons)</h2>
+          <p id="results-two-value">
+            0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+          </p>
+        </div>
+        <div id="results-three">
+          <h2 id="results-three-title">Mass (Kilograms/Pounds)</h2>
+          <p id="results-three-value">
+            0 kilograms = 0.000 pounds | 0 pounds = 0.000 kilograms
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
